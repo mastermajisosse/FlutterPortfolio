@@ -1,4 +1,4 @@
-name: Flutter Web
+name: web
 on:
   push:
     branches:
@@ -23,8 +23,8 @@ jobs:
           # type configurations: your user.email and user.name followed lines 
           # git config --global user.email your_email 
           # git config --global user.name your_name 
-          # git config --global user.email onatcipli@outlook.com
-          # git config --global user.name onatcipli
+          git config --global user.email mastermajidosse@outlook.com
+          git config --global user.name mastermajisosse
           git status
           # change this remote url for examle your remote url is https://github.com/onatcipli/flutter_web.git then the following:
           git remote add origin https://${{secrets.secretcommit}}@github.com/mastermajisosse/FlutterPortfolio.git
